@@ -13,7 +13,8 @@ set(FEATURE_TARGETS
   rvalue
   smart_ptr
   uniform_initializer
-  regex)
+  regex
+  for_expression)
 
 foreach(TARGET ${FEATURE_TARGETS})
   add_executable(${TARGET} ${TARGET}.cpp)
