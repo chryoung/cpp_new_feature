@@ -14,7 +14,14 @@ set(FEATURE_TARGETS
   smart_ptr
   uniform_initializer
   regex
-  for_expression)
+  for_expression
+  enum_class
+  type_alias
+  trailing_return
+  static_assert
+  traits
+  override_final
+)
 
 foreach(TARGET ${FEATURE_TARGETS})
   add_executable(${TARGET} ${TARGET}.cpp)
